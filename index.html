@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranakshi Varshney | Resume</title>
+  <meta name="description" content="Pranakshi Varshney: BBA student at NMIMS Bangalore and IIM Bangalore DBE, building at the intersection of entrepreneurship and AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-mark">P<span>V</span></div>
+  </div>
+
+  <canvas id="trail" aria-hidden="true"></canvas>
+  <div class="spotlight" id="spotlight" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top">P<span>V</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">BBA &middot; NMIMS Bangalore &nbsp;/&nbsp; DBE &middot; IIM Bangalore</p>
+          <h1>Pranakshi <em>Varshney</em></h1>
+          <p class="lede">Founder-in-the-making building at the intersection of <mark>entrepreneurship</mark> and <mark>artificial intelligence</mark>.</p>
+          <div class="btn-row">
+            <a class="btn btn-gold" href="mailto:varshneypranakshi@gmail.com">Email me</a>
+            <a class="btn btn-ghost" href="#projects">View my work</a>
+            <button class="btn btn-ghost" id="printBtn" type="button">Save as PDF</button>
+          </div>
+        </div>
+        <figure class="portrait">
+          <div class="portrait-frame">
+            <img src="assets/pranakshi.jpg" alt="Portrait of Pranakshi Varshney" width="734" height="1600">
+          </div>
+          <figcaption>Pranakshi Varshney &middot; Bangalore</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section reveal" id="about">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">01</span>About</h2>
+        <div class="section-body">
+          <p>I am 18, based in Bangalore, and I love creating and building. I do not want to work for a job. I want to build companies, and I am learning how at <strong>NMIMS Bangalore</strong> while studying <strong>Digital Business and Entrepreneurship at IIM Bangalore</strong> at the same time.</p>
+          <p>I make working models, pitch apps to investors, compete in robotics and lead student committees. The common thread is simple: I like turning an idea into something that works.</p>
+          <ul class="chips">
+            <li>Entrepreneurship</li>
+            <li>AI</li>
+            <li>Robotics</li>
+            <li>Art</li>
+            <li>Cooking</li>
+            <li>Reading</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section reveal" id="education">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">02</span>Education</h2>
+        <div class="section-body">
+          <div class="row">
+            <div>
+              <h3>Bachelor of Business Administration</h3>
+              <p class="muted">NMIMS Bangalore</p>
+            </div>
+            <span class="mono">Pursuing</span>
+          </div>
+          <div class="row">
+            <div>
+              <h3>Digital Business and Entrepreneurship (DBE)</h3>
+              <p class="muted">IIM Bangalore, pursued alongside the BBA</p>
+            </div>
+            <span class="mono">Pursuing</span>
+          </div>
+          <div class="row">
+            <div>
+              <h3>Class 12 &middot; CBSE</h3>
+              <p class="muted">Shree Ram Global School, Whitefield, integrated with Allen Whitefield</p>
+            </div>
+            <span class="mono">72%</span>
+          </div>
+          <div class="row">
+            <div>
+              <h3>Class 10 &middot; CBSE</h3>
+              <p class="muted">National Public School, Whitefield</p>
+            </div>
+            <span class="mono">93%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section reveal" id="projects">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">03</span>Projects &amp; Ventures</h2>
+        <div class="section-body">
+          <div class="cards">
+            <article class="card tilt">
+              <p class="tag">Startup</p>
+              <h3>GoDiet</h3>
+              <p>A personalised nutrition platform with an on-demand cook marketplace, launching in Bengaluru. I am working on it as a founder.</p>
+            </article>
+            <article class="card tilt">
+              <p class="tag">Pitch</p>
+              <h3>NUDGE.AI</h3>
+              <p>An AI app that I pitched to venture capitalists at Mesa School of Business.</p>
+            </article>
+            <article class="card tilt">
+              <p class="tag">Startup</p>
+              <h3>Stufini</h3>
+              <p>A student finance app, built and presented as a venture pitch.</p>
+            </article>
+            <article class="card tilt">
+              <p class="tag">Engineering</p>
+              <h3>Working models</h3>
+              <p>A carbon fibre drone, a Chandrayaan rocket and an electric bell, all built as working models.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section reveal" id="achievements">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">04</span>Achievements</h2>
+        <div class="section-body">
+          <div class="stats">
+            <div class="stat"><span class="stat-n">3<sup>rd</sup></span><span class="stat-l">International rank and gold medal, IEO</span></div>
+            <div class="stat"><span class="stat-n">96</span><span class="stat-l">Percentile in CUET GAT</span></div>
+            <div class="stat"><span class="stat-n">1<sup>st</sup></span><span class="stat-l">Prize in every Innovium robotics competition entered</span></div>
+          </div>
+          <ul class="list">
+            <li><strong>Best Delegate</strong> awards at several Model UN conferences during school.</li>
+            <li><strong>Basketball:</strong> won several tournaments, including the latest one at the NMIMS campus organised by the Fateh committee.</li>
+            <li><strong>Robotics:</strong> competing in more robot-making competitions.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="section reveal" id="leadership">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">05</span>Leadership</h2>
+        <div class="section-body">
+          <div class="row">
+            <div>
+              <h3>Student Council</h3>
+              <p class="muted">Guest lecture and certifications department</p>
+            </div>
+            <span class="mono">NMIMS</span>
+          </div>
+          <div class="row">
+            <div>
+              <h3>Insignia Alumni Committee</h3>
+              <p class="muted">Digiworks and creatives</p>
+            </div>
+            <span class="mono">NMIMS</span>
+          </div>
+          <div class="row">
+            <div>
+              <h3>Rotaract Committee</h3>
+              <p class="muted">Member</p>
+            </div>
+            <span class="mono">NMIMS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section reveal" id="skills">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">06</span>Skills</h2>
+        <div class="section-body">
+          <div class="skills">
+            <div class="skill-group">
+              <h3>Tools</h3>
+              <ul class="chips"><li>Canva</li><li>AI tools</li><li>Excel</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <ul class="chips"><li>English</li><li>Hindi</li><li>French</li><li>Japanese (learning)</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Beyond the classroom</h3>
+              <ul class="chips"><li>Art</li><li>Cooking</li><li>Reading</li><li>Building new projects</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOAL -->
+    <section class="section reveal" id="goal">
+      <div class="container">
+        <blockquote class="goal">
+          I want to immerse myself completely in the world of entrepreneurship and AI, build something of my own and show my talent to the world.
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section reveal" id="contact">
+      <div class="container grid-12">
+        <h2 class="section-title"><span class="num">07</span>Contact</h2>
+        <div class="section-body">
+          <a class="mail-link" href="mailto:varshneypranakshi@gmail.com">varshneypranakshi@gmail.com</a>
+          <p class="contact-line"><span class="mono">Phone</span> <a href="tel:+918792912422">+91 87929 12422</a></p>
+          <p class="contact-line"><span class="mono">Location</span> Bangalore, India</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Pranakshi Varshney &middot; Roll No. 26120945 &middot; Built with HTML, CSS and a little JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
